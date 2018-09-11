@@ -1,0 +1,23 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Portifólio responsivo",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerculesPL/portifolio.git"
+  },
+  "author": "Hercules Pedrosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerculesPL/portifolio/issues"
+  },
+  "homepage": "https://github.com/HerculesPL/portifolio#readme"
+}
