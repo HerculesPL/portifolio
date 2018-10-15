@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://HerculesPL.github.io/portifolio",
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.9.4"
   },
   "devDependencies": {},
   "scripts": {
