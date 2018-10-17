@@ -50,14 +50,14 @@
         .portrait {
             //background: url(../img/profile_smal.jpg);
             width: 150px;
-            heigth: 150px;
+            height: 150px;
 
         }
     }
 
     .about-info {
         grid-template-areas: 
-        'bioimage'
+        'card'
         'bio'
         'job1'
         'job2'

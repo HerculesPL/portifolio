@@ -54,12 +54,11 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu .portrait {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     background: url(../img/profile5.jpg);
     border-radius: 50%;
-    background-size: cover;
-    border: solid 3px #43b7ff; }
+    background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -164,7 +163,7 @@ main {
   grid-gap: 30px;
   grid-template-areas: "card bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
-  .about-info .card {
+  .about-info .content {
     grid-area: card;
     margin: auto; }
   .about-info .bio {
@@ -272,7 +271,7 @@ main {
   position: absolute;
   z-index: -1;
   left: 10px;
-  bottom: 40px;
+  bottom: 0px;
   animation: animainfos 0.5s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.75s forwards; }
   .badgescard i {
     font-size: 1.6em;
@@ -311,9 +310,9 @@ main {
 
 @keyframes animainfos {
   0% {
-    bottom: 40px; }
+    bottom: 0px; }
   100% {
-    bottom: 20px; } }
+    bottom: -42px; } }
 
 @keyframes rotatemagic {
   0% {

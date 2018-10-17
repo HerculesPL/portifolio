@@ -83,7 +83,7 @@ main {
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 
-  .card {
+  .content {
     grid-area: card;
     margin: auto;
   }
@@ -245,7 +245,7 @@ main {
   position: absolute;
   z-index: -1;
   left: 10px;
-  bottom: 40px;
+  bottom: 0px;
   @extend %flex;
   animation: animainfos 0.5s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.75s
     forwards;
@@ -298,10 +298,10 @@ main {
 
 @keyframes animainfos {
   0% {
-    bottom: 40px;
+    bottom: 0px;
   }
   100% {
-    bottom: 20px;
+    bottom: -42px;
   }
 }
 

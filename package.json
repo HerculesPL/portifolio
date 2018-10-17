@@ -1,7 +1,7 @@
 {
   "name": "portifolio",
   "version": "1.0.0",
-  "description": "Portifólio responsivo",
+  "description": "Portifólio Responsivo",
   "main": "index.js",
   "homepage": "https://HerculesPL.github.io/portifolio",
   "dependencies": {
@@ -20,6 +20,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HerculesPL/portifolio/issues"
-  },
-  "homepage": "https://github.com/HerculesPL/portifolio#readme"
+  }
 }
