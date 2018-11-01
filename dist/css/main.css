@@ -168,7 +168,7 @@ main {
     margin: auto; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -179,6 +179,9 @@ main {
     background: white;
     padding: 0.5rem;
     border-bottom: #43b7ff 5px solid; }
+
+h6 + p {
+  text-align: justify; }
 
 .projects {
   display: grid;

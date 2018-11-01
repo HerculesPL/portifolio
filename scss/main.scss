@@ -90,9 +90,8 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-
   .job-1 {
     grid-area: job1;
   }
@@ -110,6 +109,10 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+}
+
+h6 + p{
+    text-align: justify;
 }
 
 // Work/Projects
@@ -330,8 +333,4 @@ div .teste {
     top: -24px;
     left: -78px;
   }
-}
-
-.bio p {
-    font-size: 1em;
 }
